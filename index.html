@@ -343,50 +343,50 @@
         </div>
     </div>
     <script src="https://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
-    <script src="https://twitter.com/statuses/user_timeline/nischalshetty.json?callback=twitterCallback2&count=6" type="text/html"></script>
+    <script src="https://twitter.com/statuses/user_timeline/nischalshetty.json?callback=twitterCallback2&count=6" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
-<script>
-$(document).ready(function(){
-    gsap.registerPlugin(ScrollToPlugin);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        gsap.registerPlugin(ScrollToPlugin);
 
-    $('.ellipseClick1Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick1"});
-    })
-    $('.ellipseClick2Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick2"});
-    })
-    $('.ellipseClick3Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick3"});
-    })
-    $('.ellipseClick4Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick4"});
-    })
-    $('.ellipseClick5Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick5"});
-    })
-    $('.ellipseClick6Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick6"});
-    })
-    $('.ellipseClick7Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick7"});
-    })
-    $('.ellipseClick8Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick8"});
-    })
-    $('.ellipseClick9Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick9"});
-    })
-    $('.ellipseClick10Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick10"});
-    })
-    $('.ellipseClick11Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick11"});
-    })
-    $('.ellipseClick12Btn').click(function(){
-        gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick12"});
-    })
-});
-</script>
+        $('.ellipseClick1Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick1"});
+        })
+        $('.ellipseClick2Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick2"});
+        })
+        $('.ellipseClick3Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick3"});
+        })
+        $('.ellipseClick4Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick4"});
+        })
+        $('.ellipseClick5Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick5"});
+        })
+        $('.ellipseClick6Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick6"});
+        })
+        $('.ellipseClick7Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick7"});
+        })
+        $('.ellipseClick8Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick8"});
+        })
+        $('.ellipseClick9Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick9"});
+        })
+        $('.ellipseClick10Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick10"});
+        })
+        $('.ellipseClick11Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick11"});
+        })
+        $('.ellipseClick12Btn').click(function(){
+            gsap.to('.information__container', {duration: 1, scrollTo: "#ellipseClick12"});
+        })
+    });
+    </script>
 </body>
 </html>
