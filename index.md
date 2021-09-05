@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://twitter.com/statuses/user_timeline/nischalshetty.json?callback=twitterCallback2&count=6" type="text/javascript"></script>
     <style>
         .box{
             padding: 25px 20px;
@@ -95,8 +96,14 @@
     </style>
 </head>
 <body>
-
     <div class="box">
+        <div id="twitter_t"></div>
+        <div id="twitter_m">
+           <div id="twitter_container">
+               <ul id="twitter_update_list"></ul>
+           </div>
+        </div>
+        <div id="twitter_b"></div>
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1060" height="308.5" viewBox="0 0 1060 308.5">
             <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(5.5 6.5)" width="100%" clip-path="url(#clip-path)">
                 <g transform="translate(-366 -232.5)">
